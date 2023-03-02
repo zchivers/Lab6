@@ -1,0 +1,144 @@
+/* Importing normalize.css */
+@import "normalize.css";
+
+/* Mobile first - small screen */
+@media screen and (max-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #292929;
+        padding: 50px;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .grid-item {
+        background-color: #ffffff;
+    }
+
+/* Placing Items in Grid */
+
+.wide {
+    grid-column: 1 / span 2;
+    text-align: center;
+    border: 5px groove #702963;          /* Giving grid items borders */
+}
+
+/* Making Images Responsive */
+
+.responsive-wide {
+    width: 100%;
+    height: auto;
+}
+
+.square1 {
+    grid-row: 2;
+    text-align: center;
+    border: 5px groove #702963;
+}
+
+.responsive-square1 {
+    width: 100%;
+    height: auto;
+}
+
+.square2 {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    text-align: center;
+    border: 5px groove #702963; 
+}
+
+.responsive-square2 {
+    width: 100%;
+    height: auto;
+}
+
+.square3 {
+    grid-column: 1 / span 1;
+    grid-row: 3;
+    text-align: center;
+    border: 5px groove #702963; 
+}
+
+.responsive-square3 {
+    width: 100%;
+    height: auto;
+}
+
+.square4 {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    border: 5px groove #702963; 
+}
+
+.responsive-square4 {
+    width: 100%;
+    height: auto;
+}
+
+.square5 {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    border: 5px groove #702963; 
+}
+
+.responsive-square5 {
+    width: 100%;
+    height: auto;
+}
+
+.square6 {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    border: 5px groove #702963; 
+}
+
+.responsive-square6 {
+    width: 100%;
+    height: auto;
+}
+
+.square7 {
+    grid-column: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    text-align: center;
+    border: 5px groove #702963; 
+}
+
+.responsive-square7 {
+    width: 100%;
+    height: auto;
+}
+
+.tall {
+    grid-column: 2;
+    text-align: center;
+    border: 5px groove #702963;
+}
+
+.responsive-tall {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    background-color: #ffffff;
+    color: #292929;
+    text-decoration-line: underline;
+    text-decoration-color: #702963;  
+    text-decoration-style: solid;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+}
+
+/* NO FORMATTING FOR SCREEN SIZES GREATER THAN 500px */
